@@ -1,8 +1,26 @@
+# Ignore Python virtual environments
 venv/
+.venv/
+env/
+ENV/
+
+# Ignore Python bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.env.*
+*.py[cod]
+
+# Ignore Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
 .DS_Store
+Thumbs.db
+
+# Ignore environment files
+*.env
+
+# Ignore requirements issues
+pip-log.txt
